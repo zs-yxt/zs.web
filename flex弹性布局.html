@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,body{
+      width: 100%;
+      height: 100%;
+      background-color:white;
+      border: 0.8em solid #00005d;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .container{
+      width: 100%;
+      height: 0;
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+    }
+    header{
+      background-color: #869dc7 ;
+      flex-basis: 120px;
+      background-image: url(./2-1/images/lighthouselogo.jpg);
+      background-size: 350px 127px;
+      background-repeat: no-repeat;
+      background-position: left center;
+      width: 100%;
+    }
+    footer{
+    display: flex;
+      margin: 0;
+      width: 100%;
+      flex-basis: 80px;
+      background-color: #869dc7 ;
+      justify-content: center;
+      align-items: center;
+    }
+    header img{
+      float: left;
+      width: 30%;
+      height: 100%;
+    }
+    header h1{
+      font-size: 3em;
+      color: #0b2767;
+      padding-left: 450px;
+    }
+    aside{
+      background-color: #b3c7e6;
+      flex-grow:1;
+      height: 100%;
+      flex-basis: 0;
+    }
+    aside dl dd a{
+      font-size: 1.8em;
+      color: white;
+      text-decoration: none;
+    }
+    main {
+      font-size: 1.5em;
+      height: 100%;
+      flex-grow: 9;
+      flex-basis: 0;
+    }
+    main h2{
+      color: #b3c7e6;
+    }
+    main p,h2{
+      margin-left: 20px;
+    }
+    main img{
+      float:right;
+      margin-right: 50px;
+      margin-top: 50px;
+      height: 450px;
+    }
+    footer h3{
+      font:#0b2767;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- <img src="./2-1/images/lighthouselogo.jpg" alt=""> -->
+    <h1>Lighthouse Island Bistro</h1>
+  </header>
+  <div class="container">
+  <aside>
+    <dl>
+      <dd><a href="">Home</a></dd>
+      <dd><a href="">Menu</a></dd>
+      <dd><a href="">Directions</a></dd>
+    </d1>
+  </aside>
+    <main>
+      <img src="./2-1/images/lighthouseisland.jpg" alt="">
+      <h2>Locally Roasted Free-Trade Coffee</h2>
+      <p>Indulge in the aroma of freshly ground roast coffee. Specialty drinks are available hot or cold. </p>
+      <h2>Specialty Pastries</h2>
+      <p>Enjoy a selection of our fresh-baked, organic pastries, including fresh-fruit muffins, scones, croissants, and cinammon rolls. </p>
+      <h2>Lunchtime is Anytime</h2>
+      <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
+      <h2>Panoramic View</h2>
+      <p>Take in some scenery! The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower. </p>    
+    </main>
+  </div>
+  <footer>
+    <h3>Copyright © 2021</h3>
+  </footer>
+</body>
+</html>
